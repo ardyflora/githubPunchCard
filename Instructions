@@ -1,0 +1,10 @@
+#Install selenium
+sudo easy_install selenium
+
+#Install Brew:
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew help
+
+#Install Chromedriver
+brew install chromedriver
+brew services start chromedrive
