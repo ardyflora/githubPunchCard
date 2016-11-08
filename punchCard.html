@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>chart created with amCharts | amCharts</title>
+    <meta name="description" content="chart created using amCharts live editor" />
+
+    <!-- amCharts javascript sources -->
+    <script type="text/javascript" src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+    <script type="text/javascript" src="https://www.amcharts.com/lib/3/serial.js"></script>
+
+
+    <!-- amCharts javascript code -->
+    <script type="text/javascript">
+        AmCharts.makeChart("chartdiv", {
+            "type": "serial",
+            "categoryField": "data-date",
+            "categoryAxis": {
+                "gridPosition": "start"
+            },
+            "trendLines": [],
+            "graphs": [{
+                "balloonText": "[[title]] on [[data-date]]:[[value]]",
+                "bullet": "round",
+                "id": "AmGraph-1",
+                "title": "Contributions Value",
+                "valueField": "data-count"
+            }],
+            "guides": [],
+            "valueAxes": [{
+                "id": "ValueAxis-1",
+                "stackType": "regular",
+                "title": "Number of Contributions"
+            }],
+            "allLabels": [],
+            "balloon": {},
+            "legend": {
+                "enabled": true,
+                "useGraphSettings": true
+            },
+            "titles": [{
+                "id": "Title-1",
+                "size": 15,
+                "text": "GitHub Punchcard"
+            }],
+            "dataProvider": [{
+                'data-date': '2015-11-17',
+                'data-count': '1'
+            }, {
+                'data-date': '2015-11-28',
+                'data-count': '1'
+            }, {
+                'data-date': '2016-01-13',
+                'data-count': '1'
+            }, {
+                'data-date': '2016-01-22',
+                'data-count': '1'
+            }, {
+                'data-date': '2016-01-23',
+                'data-count': '1'
+            }, {
+                'data-date': '2016-01-24',
+                'data-count': '1'
+            }, {
+                'data-date': '2016-01-26',
+                'data-count': '1'
+            }, {
+                'data-date': '2015-11-11',
+                'data-count': '3'
+            }, {
+                'data-date': '2015-12-04',
+                'data-count': '3'
+            }, {
+                'data-date': '2016-01-21',
+                'data-count': '3'
+            }, {
+                'data-date': '2016-05-01',
+                'data-count': '3'
+            }, {
+                'data-date': '2015-11-08',
+                'data-count': '5'
+            }, {
+                'data-date': '2016-01-20',
+                'data-count': '5'
+            }, {
+                'data-date': '2016-04-06',
+                'data-count': '5'
+            }, {
+                'data-date': '2016-04-19',
+                'data-count': '9'
+            }]
+        });
+    </script>
+</head>
+
+<body>
+    <div id="chartdiv" style="width: 100%; height: 400px; background-color: #FFFFFF;"></div>
+</body>
+
+</html>

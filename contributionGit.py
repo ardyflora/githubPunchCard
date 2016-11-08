@@ -1,4 +1,5 @@
 from selenium import webdriver
+import json
 
 driver = webdriver.Chrome()
 driver.get("https://github.com/users/ardyflora/contributions")
@@ -13,16 +14,21 @@ for i in range(1,20):
         Data ={}
         print elem.get_attribute("data-date")
         print elem.get_attribute("data-count")
-        Data['data-date'] = elem.get_attribute("data-date")
-        Data['data-count'] = elem.get_attribute("data-count")
+        Data['data-date'] = str(elem.get_attribute("data-date"))
+        Data['data-count'] = str(elem.get_attribute("data-count"))
         Data_points.append(Data)
 
 #DataStructure dataPoints:
 # X axis = data-date
 # Y axis = data-count
+#
 print("Final data set:",Data_points)
 
-#Here actual code goes for plotting
+#Parsing the data into json file to be used by .js script
+with open("
+output.json", "w") as f:
+    json.dump(Data_points, f)
+json.dumps(Data_points)
 
 
 driver.close()
