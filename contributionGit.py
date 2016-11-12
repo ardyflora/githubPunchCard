@@ -25,8 +25,7 @@ for i in range(1,20):
 print("Final data set:",Data_points)
 
 #Parsing the data into json file to be used by .js script
-with open("
-output.json", "w") as f:
+with open("output.json", "w") as f:
     json.dump(Data_points, f)
 json.dumps(Data_points)
 
