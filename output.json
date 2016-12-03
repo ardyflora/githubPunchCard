@@ -1,1 +1,55 @@
-[{"data-date": "2015-11-17", "data-count": "1"}, {"data-date": "2015-11-28", "data-count": "1"}, {"data-date": "2016-01-13", "data-count": "1"}, {"data-date": "2016-01-22", "data-count": "1"}, {"data-date": "2016-01-23", "data-count": "1"}, {"data-date": "2016-01-24", "data-count": "1"}, {"data-date": "2016-01-26", "data-count": "1"}, {"data-date": "2016-01-27", "data-count": "1"}, {"data-date": "2016-11-10", "data-count": "1"}, {"data-date": "2015-11-27", "data-count": "2"}, {"data-date": "2016-04-13", "data-count": "2"}, {"data-date": "2016-05-02", "data-count": "2"}, {"data-date": "2016-05-03", "data-count": "2"}, {"data-date": "2016-05-05", "data-count": "2"}, {"data-date": "2016-11-08", "data-count": "2"}, {"data-date": "2015-11-09", "data-count": "3"}, {"data-date": "2015-11-11", "data-count": "3"}, {"data-date": "2015-12-04", "data-count": "3"}, {"data-date": "2016-01-21", "data-count": "3"}, {"data-date": "2016-05-01", "data-count": "3"}, {"data-date": "2015-11-08", "data-count": "5"}, {"data-date": "2016-01-20", "data-count": "5"}, {"data-date": "2016-04-06", "data-count": "5"}, {"data-date": "2016-04-19", "data-count": "9"}]
+[{
+    "data-date": "2015-12-04",
+    "data-count": "3"
+}, {
+    "data-date": "2016-01-13",
+    "data-count": "1"
+}, {
+    "data-date": "2016-01-20",
+    "data-count": "5"
+}, {
+    "data-date": "2016-01-21",
+    "data-count": "3"
+}, {
+    "data-date": "2016-01-22",
+    "data-count": "1"
+}, {
+    "data-date": "2016-01-23",
+    "data-count": "1"
+}, {
+    "data-date": "2016-01-24",
+    "data-count": "1"
+}, {
+    "data-date": "2016-01-26",
+    "data-count": "1"
+}, {
+    "data-date": "2016-01-27",
+    "data-count": "1"
+}, {
+    "data-date": "2016-04-06",
+    "data-count": "5"
+}, {
+    "data-date": "2016-04-13",
+    "data-count": "2"
+}, {
+    "data-date": "2016-04-19",
+    "data-count": "9"
+}, {
+    "data-date": "2016-05-01",
+    "data-count": "3"
+}, {
+    "data-date": "2016-05-02",
+    "data-count": "2"
+}, {
+    "data-date": "2016-05-03",
+    "data-count": "2"
+}, {
+    "data-date": "2016-05-05",
+    "data-count": "2"
+}, {
+    "data-date": "2016-11-08",
+    "data-count": "2"
+}, {
+    "data-date": "2016-11-10",
+    "data-count": "1"
+}]

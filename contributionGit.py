@@ -1,5 +1,6 @@
 from selenium import webdriver
 import json
+from collections import OrderedDict
 
 driver = webdriver.Chrome()
 driver.get("https://github.com/users/ardyflora/contributions")
@@ -22,12 +23,16 @@ for i in range(1,20):
 # X axis = data-date
 # Y axis = data-count
 #
-print("Final data set:",Data_points)
+#print("Final data set:",Data_points)
+
+from operator import itemgetter
+newlist = sorted(Data_points, key=itemgetter('data-date'), reverse=False)
+print(newlist)
 
 #Parsing the data into json file to be used by .js script
 with open("output.json", "w") as f:
-    json.dump(Data_points, f)
-json.dumps(Data_points)
+    json.dump(newlist, f)
+json.dumps(newlist)
 
 
 driver.close()

@@ -8,6 +8,8 @@ a json file which is later on read by javascript to display on a WebPage.
 
 ![](githubPunchcardChart.png)
 
+![](githubPunchCardChartJson.png)
+
 ## Installation
 
 OS X & Linux:
@@ -16,18 +18,14 @@ OS X & Linux:
 Please refer Instructions
 ```
 
-## Usage example
-
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
-
 ## Development setup
+Install Node js on Mac:
+http://blog.teamtreehouse.com/install-node-js-npm-mac
 
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
+    brew install node
+    node -v
+    npm install http-server -g
 
-```sh
-make install
-npm test
-```
 
 ## Release History
 * 0.0.1

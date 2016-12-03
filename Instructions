@@ -8,3 +8,9 @@ brew help
 #Install Chromedriver
 brew install chromedriver
 brew services start chromedrive
+
+#To launch nodejs server
+http-server -o
+
+#Kill running nodejs server
+ps aux | awk '/node/{print $2}' | xargs kill -9
