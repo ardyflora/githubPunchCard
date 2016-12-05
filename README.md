@@ -4,7 +4,8 @@
 
 GithubPunchCard, It uses Selenium and goes to contribution webpage and scrapes
 all the data which is later piped into a Dictionary. Dictionary is later sent to
-a json file which is later on read by javascript to display on a WebPage.
+a json file which is later on read by javascript and using amCharts we display it
+on a WebPage.
 
 ![](githubPunchcardChart.png)
 
